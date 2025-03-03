@@ -1,0 +1,9 @@
+---
+- hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: create file in home directory
+      ansible.builtin.copy:
+        dest: ~/message.txt
+        content: Hello, it's written by playbook from remote github repository
