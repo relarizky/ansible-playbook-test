@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: ansible2.hl.local
   gather_facts: no
 
   tasks:
